@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "co.qcode.gamedemo",
+            "sha256_cert_fingerprints": [
+                "11:24:D5:56:B1:C1:C2:76:C0:C5:2C:87:60:C2:3E:BA:68:C1:21:1F:91:FB:C1:6F:FF:E3:C6:4A:39:5C:18:A3"
+            ]
+        }
+    }
+]
