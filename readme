@@ -16,4 +16,4 @@ https://m30102.github.io/.well-known/assetlinks.json
 
 // 设置通过其他域名访问到这个文件
 https://域名/.well-known/assetlinks.json
-// 文件设置
+// 手机浏览器打开这个域名即可打开应用
