@@ -1,0 +1,19 @@
+创建 m30102.github.io仓库，必须为这个名字
+原链接
+https://github.com/m30102/m30102.github.io/blob/master/.well-known/assetlinks.json
+raw访问
+https://github.com/m30102/m30102.github.io/raw/master/.well-known/assetlinks.json
+
+
+// 配置github pages 选择分支即可   
+// 显示 index.html
+https://m30102.github.io
+// 显示 json
+https://m30102.github.io/.well-known/assetlinks.json
+
+
+
+
+// 设置通过其他域名访问到这个文件
+https://域名/.well-known/assetlinks.json
+// 文件设置
