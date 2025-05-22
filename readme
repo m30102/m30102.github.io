@@ -11,9 +11,18 @@ https://m30102.github.io
 // 显示 json
 https://m30102.github.io/.well-known/assetlinks.json
 
+https://q-code.co/.well-known/assetlinks.json
 
 
-
-// 设置通过其他域名访问到这个文件
+// 设置通过其他域名能访问到这个文件
 https://域名/.well-known/assetlinks.json
-// 手机浏览器打开这个域名即可打开应用
+
+
+
+manifest 设置pathPrefix, 如/co/qcode/gamedemo
+
+然后通过adb 或者 app 点击链接 即可打开应用（不能用浏览器），注意区分应用，所以要加/co/qcode/gamedemo
+adb shell am start -W -a android.intent.action.VIEW -d "https://m30102.github.io/co/qcode/gamedemo/co/qcode/gamedemo"
+
+完整链接会带有第三方参数
+adb shell am start -W -a android.intent.action.VIEW -d "https://m30102.github.io/co/qcode/gamedemo?code=XW8RxtZPf__CjICUs5FpXpHjuOY_R8P4sCvBpHi4jyFbyYtWHiQcnAwaLgEyR3BnJcccS3Hsx1Mvg72ztHdN0mKfLhcRwbHJjkvuILYrzYq1fRvPNj-us3PswQH1deAPd5gCXpeKo1xb_CR5UDSe1w2D63JC8IAAj3iqlFPDkfHKsoDX59IsF-OhcJ4A1Qb-TzUI9hAA97ATikO5U8uZ6_AQs5FLE65LdMk561xk8JLPhRJ01U6gjXmrdyRvIDqk-HhK5ns2BzRRZhHu9aK9SLs20QP87OgLVfvUZxucmKg%2A3%216195.va&scopes=user.info.basic"
